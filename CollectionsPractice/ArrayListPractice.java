@@ -898,7 +898,39 @@ public class ArrayListPractice {
 			System.out.println("33---------------------------------------------------------------------");
 			
 		}
+	
+			// 33.Backup cart before discount to restore if needed.
+		private void backupCart() {
+
+			ArrayList<String> cartList = new ArrayList<String>();
+			cartList.add("Shampoo");
+			cartList.add("Soap");
+			cartList.add("Towel");
+			cartList.add("Brush");
+			cartList.add("TennisBall");
+
+			System.out.println("The original cartlist is ::: " + cartList);
+			ArrayList<String> backupCart = (ArrayList<String>) cartList.clone();
+			System.out.println("Backup cart is ::: " + backupCart);
+			cartList.remove("Brush");
+			System.out.println("After removing one item from org list is ::: " + cartList);
+			System.out.println("Backup cart is ::: " + backupCart);
+
+		}
 		
+		//34. Write a Java program that reads product IDs from a file (or generates them) and stores them in an ArrayList.
+		//Use ensureCapacity() to prepare the list for all elements before insertion, so resizing happens only once.
+		
+		public void usingEnsureCapacity() {
+			
+			ArrayList<String> productList = new ArrayList<String>();
+			productList.ensureCapacity(1000);
+			for(int i = 1 ; i <= 100 ; i++) {
+			productList.add("Product-" + i);
+			}
+			System.out.println(productList);
+			
+		}
 		
 		// showing methods of arraylist used in this file.
 		public List<String> showMethodsofArrayList() {
@@ -939,8 +971,7 @@ public class ArrayListPractice {
 			
 		
 }	
-		
-
+	
 		//created for 30th problem
 		class Employee{
 			String empName;
