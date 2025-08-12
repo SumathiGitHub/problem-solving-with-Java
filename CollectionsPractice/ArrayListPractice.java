@@ -107,8 +107,6 @@ public class ArrayListPractice {
 	}
 	
 	
-	
-
 	// 2.Check if a specific name exists in the ArrayList.
 	public void checkIfNameExists(List<String> neededList) {
 
@@ -227,8 +225,7 @@ public class ArrayListPractice {
 		System.out.println("10--------------------------------------------------------------------------");
 	}
 
-	
-	
+		
 	//* 11.Remove all names that contain the letter 'a'.
 	
 	public void removingParticularElement(List<String> inputString) {
@@ -359,7 +356,6 @@ public class ArrayListPractice {
 	}
 	
 	
-	
 	// * 15.Find the longest name in the ArrayList.
 	
 	public String longestNameInTheList(List<String> nameList) {
@@ -378,8 +374,7 @@ public class ArrayListPractice {
 
 		return longestName;
 	}
-	 
-	
+	 	
 	 // * 16.Remove duplicate names using a Set.
 	 
 		public List<Integer> removingDuplicates() {
@@ -403,7 +398,6 @@ public class ArrayListPractice {
 
 			return ar;
 		}
-	
 	
 		
 		// 17.Reverse the ArrayList without using Collections.reverse().
@@ -430,8 +424,7 @@ public class ArrayListPractice {
 			return list;
 		}
 		
-		
-		
+				
 		//18. Find duplicates in the ArrayList without using a Set
 		
 		public List<String> findingDuplicatesWithoutSet(List<String> inputList) {
@@ -586,8 +579,7 @@ public class ArrayListPractice {
 			System.out.println("23---------------------------------------------------------------------");
 			return uniqueList;
 		}
-		
-		
+			
 		
 		//24.Keep only names that start with "S" or "M"
 		
@@ -614,8 +606,7 @@ public class ArrayListPractice {
 			return list2;
 			
 		}
-		
-		
+				
 		//25.Count the frequency of each name in a list
 
 		public void frequencyChecking() {
@@ -969,9 +960,7 @@ public class ArrayListPractice {
 			methodsList1.add("trim");			
 			
 			return methodsList;
-		}
-			
-		
+		}		
 }	
 	
 		//created for 30th problem
@@ -991,8 +980,7 @@ public class ArrayListPractice {
 				
 			}
 		}
-		
-		
+				
 		//created for 32nd problem
 		class Task{
 			String plan;
