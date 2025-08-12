@@ -44,6 +44,8 @@ public class ArrayListPractice {
      * 30.Merge Two Department Employee Lists.	
      * 31.Find the First Occurrence of an Item in a Shopping List.
      * 32.Extract a Range of Tasks from a To-Do List using a sublist.
+	 * 33.Backup cart before discount to restore if needed.
+     * 34.Import 1000 products into an ArrayList, using ensureCapacity() to avoid repeated resizing and speed up loading.
 	 */
 	public static void main(String[] args) {
 
